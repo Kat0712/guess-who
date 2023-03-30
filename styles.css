@@ -1,0 +1,87 @@
+body {
+    background-color: #F0EFEC;
+}
+
+.card {
+    background-color: white;
+}
+
+span {
+    color: black;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+  }
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    
+    /*the following commands don't worK
+    /*column-gap: 30px;
+    /*row-gap: 30px;
+    */
+
+}
+
+.wrap {
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mystery {
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.cards{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card{
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.instructions{
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    padding: 20px;
+}
+
+html{
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.mystery-card {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* GW part 7: Add a shadow around each card to make it stand out.*/
+/* Not sure how to do this.*/
+
+/* Transform the mouse cursor into a "hand" when hovering a card to signal that it is an interactive element.
+Reduce the padding on the card to 6 pixels when hovering.
+Set the transition of the padding property to half of a second.
+*/
+
